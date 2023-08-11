@@ -1,0 +1,41 @@
+.slidervalue{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    gap:3px; 
+    margin:0 0 10px 0;
+ }
+.slidervalue button{
+   text-align: center;
+   margin:0 10px;
+   width:50px;
+   height: 30px;
+   font-size: 10px;
+   border: none;
+   border-radius: 10px;
+   box-shadow: -3px 0px 5px 0px rgb(230, 226, 226), 3px 0px 5px 0px rgb(180, 175, 175), 0px 3px 5px 0px lightblue;
+}
+.slider {
+  cursor: pointer;
+  width: 100%;
+}
+.track {
+  background-color: var(--gray);
+  height: 2px;
+}
+.track:nth-child(2) {
+  background-color: var(--blue);
+}
+.thumb {
+  width: 0.6rem;
+  height: 0.6rem;
+  background: var(--blue);
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  top: -5px;
+}
+  
+ 
+  

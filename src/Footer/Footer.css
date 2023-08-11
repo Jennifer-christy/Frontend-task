@@ -1,0 +1,20 @@
+.footer{
+    margin:10rem 0 0 0;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    font-size: 16px;
+    color: rgb(98, 97, 97);
+    font-weight: 500;
+    background:var(--white)
+}
+.footer-items ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding:10px;
+}
+.footer-items ul li{
+    padding: 0 15px;
+}

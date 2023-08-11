@@ -1,0 +1,82 @@
+.sidemenu{
+   padding: 1rem;;
+   width:20%;
+   height:60vh;
+   border-radius: 2rem;
+   background-color:var(--white);
+   position: fixed;
+   z-index: 1;
+}
+.item{
+   border: 2px solid rgb(232, 228, 228);
+   border-radius: 1rem;;
+   margin:10px;
+   padding:0 10px;
+}
+.title{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.title p{
+   font-size: 12px;
+   font-weight: 600;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.title p span{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin:0 10px;
+   height:25px;
+   width:25px;
+   font-size:16px;
+   border-radius:5px;
+   color:var(--white);
+   background: black;
+}
+.title button{
+   border: none;
+   background:var(--white);
+   height:2rem;
+   width:2rem;
+   margin:0 10px
+   
+}
+.job-title-list ul {
+   list-style: none;
+   padding-left: 5px;
+   display: flex;
+   flex-wrap: wrap;
+   margin-top:0px;
+}
+ .job-title-list li {
+   cursor: pointer;
+   margin:2px;
+   padding:5px;
+   color:grey;
+   border: 1px solid rgb(164, 159, 159);
+   border-radius: 1rem;
+   font-size: 10px;
+ }
+.job-title-list ul li.selected {
+   background-color: var(--blue);
+   color: var(--white) /* Set the text color for the selected title */
+ }
+
+.btn button{
+   position: absolute;
+   font-size: 14px;
+   left:25px;
+   bottom:1rem;
+   height: 50px;
+   width:19vw;
+   border:1px solid black;
+   border-radius: 20px;
+   background:var(--blue);
+   border: none;
+   color:var(--white);
+}
+
